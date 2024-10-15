@@ -2,16 +2,18 @@
 int main()
 {
     int n;
-    
-    
-    while (scanf("%d", &n)!= EOF)
-        // if (n == 1990)
-        // {
-        //     printf("Right");
-        // }
-        // else
-        // {
-        //     printf("Wrong");
-        // }
-        return 0;
+
+    while (scanf("%d", &n) != EOF)
+    {
+        if (n == 1999)
+        {
+            printf("Right\n");
+            break;
+        }
+        else
+        {
+            printf("Wrong\n");
+        }
+    }
+    return 0;
 }
