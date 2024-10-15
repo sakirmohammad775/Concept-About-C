@@ -5,8 +5,10 @@ int main()
     scanf("%d", &n);
     int secondDigit = n % 10;
     int firstDigit = n / 10;
+
     if(secondDigit==0){
-        printf("No");
+        //corner Case
+        printf("YES");
         return 0;  // If the second digit is 0, the result can't be divisible by the first digit. So, no need to check further.  // added this line to optimize the code.
     }
     else if (secondDigit % firstDigit==0 || firstDigit % secondDigit ==0)
