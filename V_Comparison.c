@@ -27,9 +27,17 @@ int main()
             printf("Wrong\n");
         }
     }
-    else
+    else if (s == '=')
+
     {
-        printf("Right\n");
+        if (A = B)
+        {
+
+            printf("Right\n");
+        }
+        else{
+            printf("Wrong\n");  
+        }
     }
     return 0;
 }
