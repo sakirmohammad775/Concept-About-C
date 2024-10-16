@@ -30,7 +30,7 @@ int main()
     else if (s == '=')
 
     {
-        if (A = B)
+        if (A == B)
         {
 
             printf("Right\n");
