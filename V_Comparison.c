@@ -4,11 +4,32 @@ int main()
     int A, B;
     char s;
     scanf("%d %c %d", &A, &s, &B);
-    printf("%d %c %d\n", A, s, B);
 
-    if(s=='>' && ){
-
+    if (s == '>')
+    {
+        if (A > B)
+        {
+            printf("Right\n");
+        }
+        else
+        {
+            printf("Wrong\n");
+        }
     }
-
+    else if (s == '<')
+    {
+        if (A < B)
+        {
+            printf("Right\n");
+        }
+        else
+        {
+            printf("Wrong\n");
+        }
+    }
+    else
+    {
+        printf("Right\n");
+    }
     return 0;
-} 
+}
