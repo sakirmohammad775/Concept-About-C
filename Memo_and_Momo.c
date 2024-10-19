@@ -2,7 +2,7 @@
 // , and Momo will choose a positive number b
 // .
 
- // Your task is to tell them who will win according to the following rules:
+// Your task is to tell them who will win according to the following rules:
 
 // If both a
 //  and b
@@ -21,13 +21,27 @@
 //  are not divisible by k
 // , no one wins and you should print "No One".
 
+#include <stdio.h>
+int main()
+{
+    long long a, b, k;
+    scanf("%lld %lld %lld", &a, &b, &k);
+    if (a % k == 0 && b % k == 0)
+    {
+        printf("Both\n");
+    }
+    else if (a % k == 0)
+    {
+        printf("Memo\n");
+    }
+    else if (b % k == 0)
+    {
+        printf("Momo\n");
+    }
 
-
-
-
-
-
-
-
-
-
+    else
+    {
+        printf("No One\n");
+    }
+    return 0;
+}
