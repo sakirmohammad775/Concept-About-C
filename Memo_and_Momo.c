@@ -1,6 +1,5 @@
 // Memo and Momo are playing a game. Memo will choose a positive number a
 // , and Momo will choose a positive number b
-// .
 
 // Your task is to tell them who will win according to the following rules:
 
@@ -19,7 +18,7 @@
 // If both a
 //  and b
 //  are not divisible by k
-// , no one wins and you should print "No One".
+//  no one wins and you should print "No One".
 
 #include <stdio.h>
 int main()
