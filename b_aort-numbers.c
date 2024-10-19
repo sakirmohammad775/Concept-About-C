@@ -11,7 +11,10 @@ int main(){
        printf("%d\n%d\n%d\n",b,c,a);
         
     }
-   
+    else{
+       printf("%d\n %d\n %d\n",c,a,b);
+        
+    }
     
     return 0;
 }
