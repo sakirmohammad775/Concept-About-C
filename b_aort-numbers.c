@@ -1,20 +1,50 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+int main()
+{
 
-    int a,b,c;
-    scanf("%d %d %d",&a,&b,&c);
-    if(a>b && b>c ){
-        printf("%d\n %d\n %d\n",a,b,c);
-        
+    int a, b, c;
+    scanf("%d %d %d", &a, &b, &c);
+    if (a <= b && a<=c)
+    //a is min
+    {
+        if (b <= c)
+        //c max
+
+        {
+            printf("%d\n%d\n%d\n", a, b, c);
+        }
+        else
+        //b max
+        {
+            printf("%d\n%d\n%d\n", a, c, b);
+        }
     }
-    else if (b>a &&  b>c){
-       printf("%d\n%d\n%d\n",b,c,a);
-        
+    else if (b<= a && b<=c)
+    // b is min
+    {
+        if (a<=c)
+        //c max
+        {
+            printf("%d\n%d\n%d\n", b, a, c);
+        }
+        else
+        //a max
+        {
+            printf("%d\n%d\n%d\n", b, c, a);
+        }
     }
-    else{
-       printf("%d\n %d\n %d\n",c,a,b);
-        
+    else {
+        // c is min
+        if (a<=b)
+        //b max
+        {
+            printf("%d\n%d\n%d\n", c, a, b);
+        }
+        else{
+            printf("%d\n%d\n%d\n", c, b, a);
+        }
     }
-    
+    printf("\n%d\n%d\n%d\n", a,b,c);
+
     return 0;
 }
