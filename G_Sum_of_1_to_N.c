@@ -38,3 +38,4 @@ int main(){
         printf("%lld ",sum);
     return 0;
 }
+//this code will show the time limit error so,we will use first  way code
