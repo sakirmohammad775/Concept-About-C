@@ -31,7 +31,19 @@ int main()
     /// reverse
     k -= 2;
     for (int i=n; i >= 1; i--, k -= 2)
-   
+    {
+        int space = n - i;
+        while (space--)
+        {
+            printf(" ");
+        }
+        for (int j = 1; j <= k; j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+
     return 0;
 }
 /*
