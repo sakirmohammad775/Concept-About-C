@@ -29,13 +29,7 @@ int main()
     }
      printf("\n");
 
-    for (int i = 0; i < length1; i++)
-    {
-        b[i]=a[i];
-        printf("%d ", b[i]);
-        b[2]=100;//for update
-        printf("\n%d ",b[i]);
-    }
+   
 
     return 0;
 }
