@@ -13,13 +13,7 @@ int main()
             printf("%d", A + B);
         }
     }
-    else if (S == '-') {
-        if (A - B == C) {
-            printf("Yes");
-        } else {
-            printf("%d", A - B);
-        }
-    }
+    
     else if (S == '*')
     {
         
