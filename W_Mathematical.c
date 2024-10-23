@@ -35,3 +35,24 @@ int main()
     }
     return 0;
 }
+
+
+/*
+#include <stdio.h>
+
+        
+        if(A*B== C){
+            printf("Yes");
+        
+        }
+        else {
+            printf("%d",A*B);
+
+    
+}
+*/
+/*
+git add .
+git commit -m "add new topic"
+git push origin main
+*/
