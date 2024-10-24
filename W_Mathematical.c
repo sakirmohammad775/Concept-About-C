@@ -37,7 +37,20 @@ int main()
 }
 
 
+/*
+#include <stdio.h>
 
+        
+        if(A*B== C){
+            printf("Yes");
+        
+        }
+        else {
+            printf("%d",A*B);
+
+    
+}
+*/
 
 /*
 git add .
