@@ -1,11 +1,4 @@
-Before Copy
-1 8 9 3 6 
-0 0 0 0 0 
-After Copy
-1 8 9 3 6 
-1 
-1 8 
-8 9 
-100 3 
-3 6 
-6 
+Mid-level candidate
+Entry-level candidate
+Junior candidate
+Senior candidate
