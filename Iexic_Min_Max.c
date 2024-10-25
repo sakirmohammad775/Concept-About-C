@@ -34,7 +34,7 @@ int main() {
 
     scanf("%s %s %s", S1, S2, S3);
 
-    char minimumString = S1;
+    char *minimumString = S1;
     char maximumString = S1;
 
     
