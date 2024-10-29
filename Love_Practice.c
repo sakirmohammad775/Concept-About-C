@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
-    long long x,y;
-    scanf("%lld,%lld",&x,&y);
-    long long z=x+y;
-    printf("%lld\n",&z);
+    int x,y;
+    scanf("%d %d",&x,&y);
+    
+    printf("%d\n",x+y);
 
     
     return 0;
