@@ -1,11 +1,9 @@
-#include <stdio.h>
-int main()
-{
+#include<stdio.h>
+int main(){
     int n;
-    scanf("%d", &n);
-    for (int i = 1; i <= n; i++)
-    {
-        printf("I Love Practice\n");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        scanf("I Love Practice");
     }
     return 0;
 }
