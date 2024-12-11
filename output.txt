@@ -1,5 +1,1 @@
-120 25 30 40 70 
-Sum:285
-Average: 57.000000
-Minimum: 25
-Maximum: 120
+3
