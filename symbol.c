@@ -1,27 +1,17 @@
-#include <stdio.h>
-int main()
-{
-    /*Input
-Only one line containing a number N
- (2≤N≤103)
-.
-
-Output
-Print all prime numbers between 1 and N
- (inclusive) separated by a space.*/
-    int x;
-    scanf("%d", &x);
-    for(int i = 0; i <=x; i++){
-        int flag = 0;
-        for(int j = 2; j <= i/2; j++){
-            if(i % j == 0){
-                flag = 1;
-                break;
-            }
-        }
-        if(flag == 0 && i > 1){
-            printf("%d ", i);
+#include<stdio.h>
+int main(){
+    int n;
+    scanf("%d",&n);
+    int a[n];
+    for(int i=0; i<n; i++){
+        scanf("%d",&a[i]);
+    }
+    for(int i=0; i<n; i++){
+        if(a[i]<=10){
+            printf("A[%d] = %d \n",i,a[i]);
         }
     }
-    return 0;
-}
+
+return 0;
+
+} 
