@@ -1,1 +1,4 @@
-YES
+word
+l11n
+i19n
+p44s
