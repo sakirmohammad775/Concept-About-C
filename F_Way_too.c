@@ -11,7 +11,11 @@ int main() {
         
         int len = strlen(S); 
         
-      
+        if (len > 10) {
+            printf("%c%d%c\n", S[0], len - 2, S[len - 1]);
+        } else {
+            printf("%s\n", S);
+        }
     }
     
     return 0;
